@@ -1,0 +1,7 @@
+itemGroup.blockenvy=Block Envy
+tile.blockenvy:stone_diorite.name=Diorite
+tile.blockenvy:stone_andesite.name=Andesite
+tile.blockenvy:stone_granite.name=Granite
+tile.blockenvy:stone_diorite_smooth.name=Polished Diorite
+tile.blockenvy:stone_andesite_smooth.name=Polished Andesite
+tile.blockenvy:stone_granite_smooth.name=Polished Granite

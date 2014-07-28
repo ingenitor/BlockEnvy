@@ -1,0 +1,16 @@
+[
+{
+  "modid": "blockenvy",
+  "name": "Block Envy",
+  "description": "Envious of blocks I can't have yet or want to exist.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "https://github.com/ingenitor/BlockEnvy",
+  "updateUrl": "",
+  "authorList": ["ingenitor"],
+  "credits": "",
+  "logoFile": "assets/blockenvy/textures/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
