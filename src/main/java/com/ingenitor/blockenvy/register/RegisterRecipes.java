@@ -17,7 +17,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
  *
  */
 public class RegisterRecipes {
-	public static final String[] listBlocks = new String[] {"diorite", "andesite", "granite", "", "", "", "claystone"};
+	public static final String[] listBlocks = new String[] {"diorite", "andesite", "granite", "netherrack", "obsidian", "ice_packed", "claystone"};
 	public static final String[] listBlocksPolished = new String[] {"diorite", "andesite", "granite", "netherrack", "obsidian", "ice_packed", "claystone"};
 
 	/**
@@ -72,9 +72,15 @@ public class RegisterRecipes {
 		for(int i = 0; i < listBlocksPolished.length; i++) {
 
 			Block input_block = null;
-			
-			if( listBlocks[i] != "") {
-				input_block = GameRegistry.findBlock(Identity.MOD_ID, "stone_" + listBlocks[i]);
+
+			if(listBlocks[i] == "netherrack") {
+				input_block = Blocks.netherrack;
+			} else if(listBlocks[i] == "obsidian") {
+				input_block = Blocks.obsidian;
+			} else if(listBlocks[i] == "ice_packed") {
+				input_block = Blocks.packed_ice;
+			} else {
+				input_block = GameRegistry.findBlock(Identity.MOD_ID, "stone_" + listBlocks[i]);				
 			}
 
 			Block smooth_block = GameRegistry.findBlock(Identity.MOD_ID, "stone_" + listBlocksPolished[i] + "_smooth");

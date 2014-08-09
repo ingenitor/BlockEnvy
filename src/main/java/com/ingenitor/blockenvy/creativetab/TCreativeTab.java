@@ -4,6 +4,7 @@
 package com.ingenitor.blockenvy.creativetab;
 
 import com.ingenitor.blockenvy.reference.Identity;
+import com.ingenitor.blockenvy.register.RegisterBlocks;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
@@ -19,7 +20,7 @@ public class TCreativeTab {
     {
         @Override
         public Item getTabIconItem() {
-            return Items.brick;
+            return Item.getItemFromBlock(RegisterBlocks.stone_diorite);
         }
     };
 }
