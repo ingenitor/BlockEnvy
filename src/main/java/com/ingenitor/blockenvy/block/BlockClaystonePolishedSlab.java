@@ -17,6 +17,9 @@ public class BlockClaystonePolishedSlab extends TBlockPolishedSlab {
 	 */
 	public BlockClaystonePolishedSlab(boolean full) {
 		super(full, RegisterBlocks.stone_claystone_smooth, 1);
+		this.setHardness(2.0F);
+		this.setResistance(10.0F);
+		this.setStepSound(soundTypePiston);
 	}
 
 	/* (non-Javadoc)

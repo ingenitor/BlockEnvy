@@ -18,6 +18,9 @@ public class BlockIcePackedPolishedSlab extends TBlockPolishedSlab {
 	 */
 	public BlockIcePackedPolishedSlab(boolean full) {
 		super(full, RegisterBlocks.stone_ice_packed_smooth, 1);
+		this.setHardness(2.0F);
+		this.setResistance(10.0F);
+		this.setStepSound(soundTypePiston);
 	}
 
 	/* (non-Javadoc)
