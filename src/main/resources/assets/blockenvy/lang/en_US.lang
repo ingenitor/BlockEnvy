@@ -2,6 +2,35 @@ itemGroup.blockenvy=Block Envy
 tile.blockenvy:stone_diorite.name=Diorite
 tile.blockenvy:stone_andesite.name=Andesite
 tile.blockenvy:stone_granite.name=Granite
+tile.blockenvy:stone_claystone.name=Claystone
+
 tile.blockenvy:stone_diorite_smooth.name=Polished Diorite
 tile.blockenvy:stone_andesite_smooth.name=Polished Andesite
 tile.blockenvy:stone_granite_smooth.name=Polished Granite
+tile.blockenvy:stone_netherrack_smooth.name=Polished Netherrack
+tile.blockenvy:stone_obsidian_smooth.name=Polished Obsidian
+tile.blockenvy:stone_ice_packed_smooth.name=Polished Packed Ice
+tile.blockenvy:stone_claystone_smooth.name=Polished Claystone
+
+tile.blockenvy:stone_diorite_smooth_slab.name=Polished Diorite Half Slab
+tile.blockenvy:stone_diorite_smooth_double_slab.name=Polished Diorite Slab Block
+tile.blockenvy:stone_andesite_smooth_slab.name=Polished Andesite Half Slab
+tile.blockenvy:stone_andesite_smooth_double_slab.name=Polished Andesite Slab Block
+tile.blockenvy:stone_granite_smooth_slab.name=Polished Granite Half Slab
+tile.blockenvy:stone_granite_smooth_double_slab.name=Polished Granite Slab Block
+tile.blockenvy:stone_netherrack_smooth_slab.name=Polished Netherrack Half Slab
+tile.blockenvy:stone_netherrack_smooth_double_slab.name=Polished Netherrack Slab Block
+tile.blockenvy:stone_obsidian_smooth_slab.name=Polished Obsidian Half Slab
+tile.blockenvy:stone_obsidian_smooth_double_slab.name=Polished Obsidian Slab Block
+tile.blockenvy:stone_ice_packed_smooth_slab.name=Polished Packed Ice Half Slab
+tile.blockenvy:stone_ice_packed_smooth_double_slab.name=Polished Packed Ice Slab Block
+tile.blockenvy:stone_claystone_smooth_slab.name=Polished Claystone Half Slab
+tile.blockenvy:stone_claystone_smooth_double_slab.name=Polished Claystone Slab Block
+
+tile.blockenvy:stone_diorite_smooth_stairs.name=Polished Diorite Stairs
+tile.blockenvy:stone_andesite_smooth_stairs.name=Polished Andesite Stairs
+tile.blockenvy:stone_granite_smooth_stairs.name=Polished Granite Stairs
+tile.blockenvy:stone_netherrack_smooth_stairs.name=Polished Netherrack Stairs
+tile.blockenvy:stone_obsidian_smooth_stairs.name=Polished Obsidian Stairs
+tile.blockenvy:stone_ice_packed_smooth_stairs.name=Polished Packed Ice Stairs
+tile.blockenvy:stone_claystone_smooth_stairs.name=Polished Claystone Stairs

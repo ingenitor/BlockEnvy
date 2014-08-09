@@ -15,22 +15,19 @@ import net.minecraft.util.IIcon;
  * @author ingenitor
  *
  */
-public class BlockDioritePolished extends TBlock {
+public class BlockClaystonePolished extends TBlock {
     private IIcon blockIconSide;
-
 	/**
-	 * 
 	 */
-	public BlockDioritePolished() {
-		super("stone_diorite_smooth");
+	public BlockClaystonePolished() {
+		super("stone_claystone_smooth");
 	}
-
 	
     @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister iconRegister) {
     	super.registerBlockIcons(iconRegister);
-    	blockIconSide = iconRegister.registerIcon(Identity.MOD_ID + ":" + "double_stone_diorite_smooth");
+    	blockIconSide = iconRegister.registerIcon(Identity.MOD_ID + ":" + "double_stone_claystone_smooth");
     }
     
     @Override    

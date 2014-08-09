@@ -3,34 +3,32 @@
  */
 package com.ingenitor.blockenvy.block;
 
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.util.IIcon;
+
 import com.ingenitor.blockenvy.reference.Identity;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.util.IIcon;
 
 /**
  * @author ingenitor
  *
  */
-public class BlockDioritePolished extends TBlock {
+public class BlockNetherrackPolished extends TBlock {
     private IIcon blockIconSide;
-
 	/**
 	 * 
 	 */
-	public BlockDioritePolished() {
-		super("stone_diorite_smooth");
+	public BlockNetherrackPolished() {
+		super("stone_netherrack_smooth");
 	}
-
 	
     @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister iconRegister) {
     	super.registerBlockIcons(iconRegister);
-    	blockIconSide = iconRegister.registerIcon(Identity.MOD_ID + ":" + "double_stone_diorite_smooth");
+    	blockIconSide = iconRegister.registerIcon(Identity.MOD_ID + ":" + "double_stone_netherrack_smooth");
     }
     
     @Override    

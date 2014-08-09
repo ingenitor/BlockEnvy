@@ -9,13 +9,12 @@ import net.minecraft.block.material.Material;
  * @author ingenitor
  *
  */
-public class BlockAndesite extends TBlock {
-
+public class BlockClaystone extends TBlock {
 	/**
 	 * 
 	 */
-	public BlockAndesite() {
-		super("stone_andesite");
+	public BlockClaystone() {
+		super("stone_claystone");
 	}
 
 }

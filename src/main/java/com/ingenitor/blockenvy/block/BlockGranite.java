@@ -15,7 +15,7 @@ public class BlockGranite extends TBlock {
 	 * 
 	 */
 	public BlockGranite() {
-		this.setBlockName("stone_granite");
+		super("stone_granite");
 	}
 
 }
