@@ -9,6 +9,7 @@ import com.ingenitor.blockenvy.proxy.IProxy;
 import com.ingenitor.blockenvy.reference.Identity;
 import com.ingenitor.blockenvy.register.RegisterBlocks;
 import com.ingenitor.blockenvy.register.RegisterRecipes;
+import com.ingenitor.blockenvy.worldgen.TWorldGeneration;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -16,6 +17,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * @author ingenitor
@@ -32,6 +34,8 @@ public class BlockEnvy {
 	
 	public static ModConfiguration config;
 	
+	public static TWorldGeneration worldGen = new TWorldGeneration();
+	
 	public BlockEnvy() {
 		config = new ModConfiguration();		
 	}
@@ -44,6 +48,10 @@ public class BlockEnvy {
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		
 		RegisterBlocks.register();
+		
+		if(config.dioriteGen || config.andesiteGen || config.graniteGen) {
+			GameRegistry.registerWorldGenerator(worldGen, 0);
+		}
 	}
 	
 	@Mod.EventHandler

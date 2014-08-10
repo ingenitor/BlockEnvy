@@ -16,6 +16,7 @@ public class BlockDiorite extends TBlock {
 	 */
 	public BlockDiorite() {
 		super("stone_diorite");
+		this.setHardness(1.5F);
 	}
 
 }

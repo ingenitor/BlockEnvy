@@ -13,17 +13,18 @@ import net.minecraftforge.common.config.Configuration;
  */
 public class ModConfiguration {
 		
-	public boolean testValue = false;
+	public boolean dioriteGen = false;
+	public boolean andesiteGen = false;
+	public boolean graniteGen = false;
 	
 	public void load() {
 		ConfigurationHandler.configuration.load();		
 	}
 	
 	public void populate() {	
-		
-		testValue = ConfigurationHandler.configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
-		
-		//TODO: populate all config parms here
+		dioriteGen = ConfigurationHandler.configuration.getBoolean("dioriteGen", "worldgen", false, "Enable/Disable Diorite world generation");
+		andesiteGen = ConfigurationHandler.configuration.getBoolean("andesiteGen", "worldgen", false, "Enable/Disable Andesite world generation");
+		graniteGen = ConfigurationHandler.configuration.getBoolean("graniteGen", "worldgen", false, "Enable/Disable Granite world generation");
 	}
 	
 	public void save() {
