@@ -1,0 +1,37 @@
+itemGroup.blockenvy=Block Envy
+
+tile.blockenvy:stone_diorite.name=Diorite
+
+tile.blockenvy:stone_andesite.name=Andesite
+
+tile.blockenvy:stone_granite.name=Granito
+tile.blockenvy:stone_claystone.name=Pietrargilla
+tile.blockenvy:stone_diorite_smooth.name=Diorite levigata
+tile.blockenvy:stone_andesite_smooth.name=Andesite levigata
+tile.blockenvy:stone_granite_smooth.name=Granito levigato
+tile.blockenvy:stone_netherrack_smooth.name=Roccia degli Inferi levigata
+tile.blockenvy:stone_obsidian_smooth.name=Ossidiana levigata
+tile.blockenvy:stone_ice_packed_smooth.name=Ghiaccio compresso levigato
+tile.blockenvy:stone_claystone_smooth.name=Pietrargilla levigata
+
+tile.blockenvy:stone_diorite_smooth_slab.name=Lastra di Diorite levigata
+tile.blockenvy:stone_diorite_smooth_double_slab.name=Blocco di lastra di Diorite levigata
+tile.blockenvy:stone_andesite_smooth_slab.name=Lastra di Andesite levigata
+tile.blockenvy:stone_andesite_smooth_double_slab.name=Blocco di lastra di Andesite levigata
+tile.blockenvy:stone_granite_smooth_slab.name=Lastra di Granito levigato
+tile.blockenvy:stone_granite_smooth_double_slab.name=Blocco di lastra di Granito levigato
+tile.blockenvy:stone_netherrack_smooth_slab.name=Lastra di Roccia degli Inferi levigata
+tile.blockenvy:stone_netherrack_smooth_double_slab.name=Blocco di lastra di Roccia degli Inferi levigata
+tile.blockenvy:stone_obsidian_smooth_slab.name=Lastra di Ossidiana levigata
+tile.blockenvy:stone_obsidian_smooth_double_slab.name=Blocco di lastra di Ossidiana levigata
+tile.blockenvy:stone_ice_packed_smooth_slab.name=Lastra di Ghiaccio compresso levigato
+tile.blockenvy:stone_ice_packed_smooth_double_slab.name=Blocco di lastra di Ghiaccio compresso levigato
+tile.blockenvy:stone_claystone_smooth_slab.name=Lastra di Pietrargilla levigata
+tile.blockenvy:stone_claystone_smooth_double_slab.name=Blocco di lastra di Pietrargilla levigata
+tile.blockenvy:stone_diorite_smooth_stairs.name=Scalini di Diorite levigata
+tile.blockenvy:stone_andesite_smooth_stairs.name=Scalini di Andesite levigata
+tile.blockenvy:stone_granite_smooth_stairs.name=Scalini di Granito levigato
+tile.blockenvy:stone_netherrack_smooth_stairs.name=Scalini di Roccia degli Inferi levigata
+tile.blockenvy:stone_obsidian_smooth_stairs.name=Scalini di Ossidiana levigata
+tile.blockenvy:stone_ice_packed_smooth_stairs.name=Scalini di Ghiaccio compresso levigato
+tile.blockenvy:stone_claystone_smooth_stairs.name=Scalini di Pietrargilla levigata
